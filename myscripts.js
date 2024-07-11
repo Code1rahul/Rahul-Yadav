@@ -1,6 +1,6 @@
 function downloadResume() {
   // Specify the path to your PDF file
-  const fileUrl = "my_resume/resume.pdf";
+  const fileUrl = '/my_resume/resume.pdf';
 
   // Create a link element
   const link = document.createElement("a");
@@ -9,7 +9,7 @@ function downloadResume() {
   link.href = fileUrl;
 
   // Set the download attribute to specify the filename
-  link.download = "resume.pdf";
+  link.download = 'resume.pdf';
 
   // Append the link to the body
   document.body.appendChild(link);
