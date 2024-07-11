@@ -574,6 +574,9 @@ footer p {
   color: aliceblue;
   border: 1px solid tomato;
 }
+#shadow-host-companion{
+  display: none;
+}
 /*
 socail media: 
 width: 60px;
